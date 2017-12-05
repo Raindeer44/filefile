@@ -5,7 +5,7 @@ const fs = require('fs');
 const filterFiles = (fileList) => {
   let allFiles = [];
   for (let file of fileList) {
-    if (file.includes('file') || file.includes('File') || file.includes('FILE')) {
+    if ((file.includes('file') || file.includes('File') || file.includes('FILE')) && !file.includes('profile')) {
       allFiles.push(file);
     }
   }
