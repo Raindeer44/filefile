@@ -14,7 +14,7 @@ const filterFiles = (fileList) => {
 }
 
 const writeFileFile = (fileList) => {
-  const file = fs.createWriteStream('FileFile');
+  const file = fs.createWriteStream('Filefile');
   file.on('error', (err) => {throw err;});
   fileList.forEach(f => {file.write(`${f}\n`);});
   file.end();
