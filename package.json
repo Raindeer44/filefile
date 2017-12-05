@@ -1,0 +1,24 @@
+{
+  "name": "filefile",
+  "version": "1.0.0",
+  "description": "Create a handy list of redundantly-named file-files",
+  "bin": {
+    "filefile": "filefile.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raindeer44/filefile.git"
+  },
+  "author": "Jade Thornton <jade@jmthornton.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raindeer44/filefile/issues"
+  },
+  "homepage": "https://github.com/Raindeer44/filefile#readme"
+}
