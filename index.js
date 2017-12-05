@@ -20,7 +20,7 @@ const writeFileFile = (fileList) => {
   file.end();
 }
 
-fs.readdir('./', (err, files) => {
+module.exports = fs.readdir('./', (err, files) => {
   if (err) {throw err;}
   files = filterFiles(files);
   writeFileFile(files);
